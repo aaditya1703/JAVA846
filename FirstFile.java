@@ -5,7 +5,12 @@ Class Calculator{
   public void add(int a, int b){
     System.out.println("Diff = "+(a-b));
     }
+
     public void product(int a, int b){
     System.out.println("Product = "+(a*b));
+      
+    public void div(int a, int b){
+    System.out.println("Quotient = "+(a/b));
+
     }
 }
