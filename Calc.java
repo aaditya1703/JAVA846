@@ -1,18 +1,18 @@
 package com.lti;
 
-public class Calculator {
+public class Calc {
 	
-	public void add(int a, int b) {
+	public static void add(int a, int b) {
 		System.out.println("Sum="+(a+b));
 	}
 	
-	public void diff(int a, int b) {
+	public static void diff(int a, int b) {
 		System.out.println("Diff="+(a-b));
 	}
-	public void product(int a, int b) {
+	public static void product(int a, int b) {
 		System.out.println("Product="+(a*b));
 	}
-	public void division(int a, int b) {
+	public static void division(int a, int b) {
 		System.out.println("Quotient="+(a/b));
 	}
 
