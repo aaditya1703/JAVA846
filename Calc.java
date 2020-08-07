@@ -1,19 +1,19 @@
 package com.lti;
 
-public class Calc {
+public class Calc{
 	
 	public static int add(int a, int b) {
-		System.out.println("Sum="+(a+b));
+		return (a+b);
 	}
 	
 	public static int diff(int a, int b) {
-		System.out.println("Diff="+(a-b));
+		return (a-b);
 	}
 	public static int product(int a, int b) {
-		System.out.println("Product="+(a*b));
+		return (a*b);
 	}
 	public static int division(int a, int b) {
-		System.out.println("Quotient="+(a/b));
+		return (a/b);
 	}
 
 	public static void main(String[] args) {
